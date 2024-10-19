@@ -1,0 +1,49 @@
+#img1L {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 1;
+}
+
+#img2L {
+    position: absolute;
+    z-index: 2;
+    width: 550px;
+    transform: translate(-40px);
+}
+
+#img3L {
+    position: absolute;
+    z-index: 3;
+    transform: translate(0, 122px);
+    width: 100%;
+    height: 40px;
+    left: 0;
+}
+
+#img4L {
+    position: absolute;
+    height: 18px;
+    transform: translate(895px,-20px);
+}
+
+.links {
+    right: 0;
+    position: absolute;
+    transform: translate(0, 135px);
+    z-index: 4;
+}
+
+.links a {
+    position: relative;
+    z-index: 4;
+    color: black;
+    padding-right: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-decoration: none;
+   
+}
