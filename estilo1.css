@@ -239,7 +239,61 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-#container {
+#containerL {
     transform: translateX(8px);
     width: 100%;
+}
+
+#rectangleL img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform: translate(0, 200px);
+    
+}
+
+#tf1L {
+    position: absolute;
+    transform: translate(490px, 240px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#emailL {
+    position: absolute;
+    transform: translate(1200px, 220px);
+    width: 20px;
+}
+
+#tf2L {
+    position: absolute;
+    transform: translate(1230px, 206px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#govL {
+    position: absolute;
+    transform: translate(1200px, 260px);
+    width: 40px;
+}
+
+#tf3L {
+    position: absolute;
+    transform: translate(1244px, 242px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#telefoneL {
+    position: absolute;
+    transform: translate(1200px, 290px);
+    width: 20px;
+}
+
+#tf4L {
+    position: absolute;
+    transform: translate(1228px, 275px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
