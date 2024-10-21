@@ -56,6 +56,42 @@
     z-index: 6;
 }
 
+#img6L {
+    position: absolute;
+    transform: translate(200px, 90px);
+    width: 280px;
+    height: 350px;
+}
+
+#imgL7 {
+    position: relative;
+    transform: translate(290px,100px);
+}
+
+#img8L {
+    position: absolute;
+    transform: translate(500px, -13px);
+    width: 280px;
+    height: 350px;
+}
+
+#img9L {
+    position: relative;
+    transform: translate(590px, -5px);
+}
+
+#img10L {
+    position: absolute;
+    transform: translate(800px, -117px);
+    width: 280px;
+    height: 350px;
+}
+
+#img11L {
+    position: relative;
+    transform: translate(890px, -109px);
+}
+
 #t1L {
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
@@ -76,13 +112,134 @@
     text-align: center;
 }
 
-#img6L {
+.form-label1L {
     position: absolute;
-    transform: translate(200px, 90px);
-    width: 300px;
+    transform: translate(210px, 120px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control1L {
+    position: absolute;
+    transform: translate(260px, 120px);
+    width: 200px;
 }
 
-#imgL7 {
-    position: relative;
-    transform: translate(300px,100px);
+.form-label2L {
+    position: absolute;
+    transform: translate(210px, 160px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control2L {
+    position: absolute;
+    transform: translate(267px, 160px);
+    width: 193px;
+}
+
+.form-label3L {
+    position: absolute;
+    transform: translate(210px, 200px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control3L {
+    position: absolute;
+    transform: translate(280px, 200px);
+    width: 181px;
+}
+
+#efetivo1L {
+    position: absolute;
+    transform: translate(210px, 260px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.form-label4L {
+    position: absolute;
+    transform: translate(514px, 14px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control4L {
+    position: absolute;
+    transform: translate(563px, 14px);
+    width: 200px;
+}
+
+.form-label5L {
+    position: absolute;
+    transform: translate(514px, 54px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control5L {
+    position: absolute;
+    transform: translate(570px, 54px);
+    width: 193px;
+}
+
+.form-label6L {
+    position: absolute;
+    transform: translate(514px, 94px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control6L {
+    position: absolute;
+    transform: translate(585px, 94px);
+    width: 181px;
+}
+#efetivo2L {
+    position: absolute;
+    transform: translate(512px, 156px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-label7L {
+    position: absolute;
+    transform: translate(815px, -88px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control7L {
+    position: absolute;
+    transform: translate(864px, -88px);
+    width: 195px;
+}
+
+.form-label8L {
+    position: absolute;
+    transform: translate(815px, -48px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control8L {
+    position: absolute;
+    transform: translate(870px, -48px);
+    width: 190px;
+}
+
+.form-label9L {
+    position: absolute;
+    transform: translate(815px, -10px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control9L {
+    position: absolute;
+    transform: translate(885px, -10px);
+    width: 177px;
+}
+
+#efetivo3L {
+    position: absolute;
+    transform: translate(815px, 49px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    transform: translateX(8px);
+    width: 100%;
 }
