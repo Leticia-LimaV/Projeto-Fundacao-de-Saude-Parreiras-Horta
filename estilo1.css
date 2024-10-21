@@ -92,6 +92,19 @@
     transform: translate(890px, -109px);
 }
 
+#img12L {
+    position: absolute;
+    transform: translate(1100px, -220px);
+    width: 280px;
+    height: 350px;
+}
+
+#img13L {
+    position: relative;
+    transform: translate(1195px,-211px);
+}
+
+
 #t1L {
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
@@ -101,6 +114,7 @@
     transform: translate(0, 90px);
     text-align: center;
 }
+
 
 #t2L {
     font-family: 'Times New Roman', Times, serif;
@@ -135,6 +149,7 @@
     transform: translate(267px, 160px);
     width: 193px;
 }
+
 
 .form-label3L {
     position: absolute;
@@ -238,6 +253,51 @@
     transform: translate(815px, 49px);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.form-label10L {
+    position: absolute;
+    transform: translate(210px, 120px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control10L {
+    position: absolute;
+    transform: translate(260px, 120px);
+    width: 200px;
+}
+
+.form-label11L {
+    position: absolute;
+    transform: translate(210px, 160px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control11L {
+    position: absolute;
+    transform: translate(267px, 160px);
+    width: 193px;
+}
+
+
+.form-label12L {
+    position: absolute;
+    transform: translate(210px, 200px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control12L {
+    position: absolute;
+    transform: translate(280px, 200px);
+    width: 181px;
+}
+
+#efetivo4L {
+    position: absolute;
+    transform: translate(210px, 260px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 
 #containerL {
     transform: translateX(8px);
