@@ -280,26 +280,26 @@
 
 .form-label12L {
     position: absolute;
-    transform: translate(210px, 200px);
+    transform: translate(1120px, -114px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 .form-control12L {
     position: absolute;
-    transform: translate(280px, 200px);
+    transform: translate(1190px, -112px);
     width: 181px;
 }
 
 #efetivo4L {
     position: absolute;
-    transform: translate(210px, 260px);
+    transform: translate(1121px, -55px);
     font-family: 'Times New Roman', Times, serif;
 }
 
 
 
 #containerL {
-    transform: translateX(8px);
+    transform: translateX(-35px);
     width: 100%;
 }
 
