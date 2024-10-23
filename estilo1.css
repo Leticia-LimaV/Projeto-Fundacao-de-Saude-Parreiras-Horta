@@ -256,28 +256,27 @@
 
 .form-label10L {
     position: absolute;
-    transform: translate(210px, 120px);
+    transform: translate(1120px, -191px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 .form-control10L {
     position: absolute;
-    transform: translate(260px, 120px);
+    transform: translate(1167px, -191px);
     width: 200px;
 }
 
 .form-label11L {
     position: absolute;
-    transform: translate(210px, 160px);
+    transform: translate(1120px, -151px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 .form-control11L {
     position: absolute;
-    transform: translate(267px, 160px);
+    transform: translate(1175px, -151px);
     width: 193px;
 }
-
 
 .form-label12L {
     position: absolute;
