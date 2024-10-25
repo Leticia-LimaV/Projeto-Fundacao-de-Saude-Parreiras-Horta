@@ -39,17 +39,7 @@
 }
 
 #img6L {
-    position: absolute;
-    z-index: 7;
-    transform: translate(50px, 100px);
-    width: 1400px;
-    height: 400px;
-}
-
-#img7L {
-    position: absolute;
-    z-index: 8;
-    transform: translate(100px, 130px);
+    position: ;
 }
 
 .links {
@@ -91,49 +81,3 @@
     text-align: center;
 }
 
-.form-label1L {
-    position: absolute;
-    z-index: 8;
-    transform: translate(70px, 480px);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-.form-control1L {
-    position: absolute;
-    z-index: 9;
-    transform: translate(120px, 480px);
-    width: 200px;
-}
-
-.form-label2L {
-    position: absolute;
-    z-index: 10;
-    transform: translate(70px, 520px);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-.form-control2L {
-    position: absolute;
-    z-index: 11;
-    transform: translate(110px, 520px);
-    width: 193px;
-}
-
-
-.form-label3L {
-    position: absolute;
-    transform: translate(210px, 200px);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-}
-.form-control3L {
-    position: absolute;
-    transform: translate(280px, 200px);
-    width: 181px;
-}
-
-#efetivo1L {
-    position: absolute;
-    transform: translate(210px, 260px);
-    font-family: 'Times New Roman', Times, serif;
-}
