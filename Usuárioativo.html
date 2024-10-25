@@ -46,35 +46,63 @@
 
           <div>
             <label for="exampleFormControlInput1" class="form-label1L">Nome:</label>
-            <input type="text" class="form-control1L" id="exampleFormControlInput1" placeholder="Digite seu nome">
+            <input type="text" class="form-control1L" id="exampleFormControlInput1" placeholder="">
           </div>
 
-          <div class="container">
-            <form id="cpfForm">
-              <label for="exampleFormControlInput1" class="form-label2L">CPF:</label>
-              <input type="text" id="cpf" placeholder="Digite o CPF" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
-              <button class="validar" type="submit">Validar CPF</button>
-              <p id="cpfError" class="error1"></p>
-            </form>
+          <div>
+              <label for="exampleFormControlInput2" class="form-label2L">CPF:</label>
+              <input type="text" class="form-control2L" id="exampleFormControlInput1" placeholder="">
           </div>
-
 
           <div>
             <label for="exampleFormControlInput1" class="form-label3L">Cargo:</label>
-            <input type="text" class="form-control3L" id="exampleFormControlInput1" placeholder="Digite seu cargo">
+            <input type="text" class="form-control3L" id="exampleFormControlInput1" placeholder=" ">
           </div>
           <div>
             <label for="exampleFormControlInput1" class="form-label4L">Departamento:</label>
-            <input type="text" class="form-control4L" id="exampleFormControlInput1" placeholder="Digite seu departamento">
+            <input type="text" class="form-control4L" id="exampleFormControlInput1" placeholder="">
           </div>
 
-          <form>
-            <label id="idade" for="ageInput">Idade:</label>
-            <input type="number" id="ageInput" name="idade" placeholder="Digite sua idade" required min="1" max="120">
-            <button type="submit">Enviar</button>
-            <p id="ageError" class="error2"></p>
+          <div>
+            <label for="exampleFormControlInput1" class="form-label5L">Idade:</label>
+            <input type="text" class="form-control5L" id="exampleFormControlInput1" placeholder="">
+          </div>
 
+          <div>
+            <label for="exampleFormControlInput1" class="form-label6L"> Cep:</label>
+            <input type="text" class="form-control6L" id="exampleFormControlInput1" placeholder="">
+          </div>
+
+          <p id="status">Deseja manter o usuário ativo?</p>
+
+          <div class="button-container">
+            <button class="ativo" onclick="alterarStatus('ativo')">✓</button>
+            <button class="inativo" onclick="alterarStatus('inativo')">✗</button>
+          </div>
+          <p id="mensagemStatus"></p>
         </main>
+
+        <footer>
+          <div id="containerL">
+          <div id="rectangleL">
+            <img src="Imagens/Rectangle 9.png" alt="">
+            <p id="tf1L">© 2024 Fundação de Saúde Parreiras Horta. Todos os direitos reservados.</p>
+          </div>
+          <div>
+            <img id="emailL" src="Imagens/email logo 1.png" alt="">
+            <p id="tf2L">ssocial.hemose@fsph.se.gov.br </p>
+          </div>
+          <div>
+            <img id="govL" src="Imagens/gov-removebg-preview 2.png" alt="">
+            <p id="tf3L">ouvidoria.fsph@fsph.se.gov.br</p>
+          </div>
+          <div>
+            <img id="telefoneL" src="Imagens/logo_telefone-removebg-preview 1.png" alt="">
+            <p id="tf4L">+55 79 3225-8057 / 3234-6010</p>
+          </div>
+        </div>
+        </footer>
+
         <script src="script.js"></script>
     </body>
     </html>
