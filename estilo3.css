@@ -1,0 +1,338 @@
+#img1L {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 1;
+}
+
+#img2L {
+    position: absolute;
+    z-index: 2;
+    width: 550px;
+    transform: translate(-40px);
+}
+
+#img3L {
+    position: absolute;
+    z-index: 3;
+    transform: translate(0, 122px);
+    width: 100%;
+    height: 40px;
+    left: 0;
+}
+
+#img4L {
+    position: absolute;
+    height: 18px;
+    transform: translate(895px,-20px);
+}
+
+.links {
+    right: 0;
+    position: absolute;
+    transform: translate(0, 135px);
+    z-index: 4;
+}
+
+.links a {
+    position: relative;
+    z-index: 5;
+    color: black;
+    padding-right: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-decoration: none;
+   
+}
+
+#img5L {
+    position: relative;
+    transform: translateY(190px);
+    width: 100%;
+    height: 80px;
+    z-index: 6;
+}
+
+#img6L {
+    position: absolute;
+    transform: translate(200px, 90px);
+    width: 280px;
+    height: 350px;
+}
+
+#img7L {
+    position: relative;
+    transform: translate(290px,100px);
+}
+
+#img8L {
+    position: absolute;
+    transform: translate(500px, -13px);
+    width: 280px;
+    height: 350px;
+}
+
+#img9L {
+    position: relative;
+    transform: translate(590px, -5px);
+}
+
+#img10L {
+    position: absolute;
+    transform: translate(800px, -117px);
+    width: 280px;
+    height: 350px;
+}
+
+#img11L {
+    position: relative;
+    transform: translate(890px, -109px);
+}
+
+#img12L {
+    position: absolute;
+    transform: translate(1100px, -220px);
+    width: 280px;
+    height: 350px;
+}
+
+#img13L {
+    position: relative;
+    transform: translate(1195px,-211px);
+}
+
+
+#t1L {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+    position: relative;
+    z-index: 7;
+    transform: translate(0, 90px);
+    text-align: center;
+}
+
+
+#t2L {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.968);
+    z-index: 8;
+    position: relative;
+    transform: translate(0, 62px);
+    text-align: center;
+}
+
+.form-label1L {
+    position: absolute;
+    transform: translate(210px, 120px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control1L {
+    position: absolute;
+    transform: translate(260px, 120px);
+    width: 200px;
+}
+
+.form-label2L {
+    position: absolute;
+    transform: translate(210px, 160px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control2L {
+    position: absolute;
+    transform: translate(267px, 160px);
+    width: 193px;
+}
+
+
+.form-label3L {
+    position: absolute;
+    transform: translate(210px, 200px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control3L {
+    position: absolute;
+    transform: translate(280px, 200px);
+    width: 181px;
+}
+
+
+.form-label4L {
+    position: absolute;
+    transform: translate(514px, 14px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control4L {
+    position: absolute;
+    transform: translate(563px, 14px);
+    width: 200px;
+}
+
+.form-label5L {
+    position: absolute;
+    transform: translate(514px, 54px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control5L {
+    position: absolute;
+    transform: translate(570px, 54px);
+    width: 193px;
+}
+
+.form-label6L {
+    position: absolute;
+    transform: translate(514px, 94px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control6L {
+    position: absolute;
+    transform: translate(585px, 94px);
+    width: 181px;
+}
+
+
+.form-label7L {
+    position: absolute;
+    transform: translate(815px, -88px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control7L {
+    position: absolute;
+    transform: translate(864px, -88px);
+    width: 195px;
+}
+
+.form-label8L {
+    position: absolute;
+    transform: translate(815px, -48px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control8L {
+    position: absolute;
+    transform: translate(870px, -48px);
+    width: 190px;
+}
+
+.form-label9L {
+    position: absolute;
+    transform: translate(815px, -10px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control9L {
+    position: absolute;
+    transform: translate(885px, -10px);
+    width: 177px;
+}
+
+
+
+.form-label10L {
+    position: absolute;
+    transform: translate(1120px, -191px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control10L {
+    position: absolute;
+    transform: translate(1167px, -191px);
+    width: 200px;
+}
+
+.form-label11L {
+    position: absolute;
+    transform: translate(1120px, -151px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control11L {
+    position: absolute;
+    transform: translate(1175px, -151px);
+    width: 193px;
+}
+
+.form-label12L {
+    position: absolute;
+    transform: translate(1120px, -114px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.form-control12L {
+    position: absolute;
+    transform: translate(1190px, -112px);
+    width: 181px;
+}
+
+
+
+
+#containerL {
+    transform: translateX(-35px);
+    width: 100%;
+}
+
+#rectangleL img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform: translate(0, 200px);
+    
+}
+
+#tf1L {
+    position: absolute;
+    transform: translate(490px, 240px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#emailL {
+    position: absolute;
+    transform: translate(1200px, 220px);
+    width: 20px;
+}
+
+#tf2L {
+    position: absolute;
+    transform: translate(1230px, 206px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#govL {
+    position: absolute;
+    transform: translate(1200px, 260px);
+    width: 40px;
+}
+
+#tf3L {
+    position: absolute;
+    transform: translate(1244px, 242px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#telefoneL {
+    position: absolute;
+    transform: translate(1200px, 290px);
+    width: 20px;
+}
+
+#tf4L {
+    position: absolute;
+    transform: translate(1228px, 275px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
