@@ -336,3 +336,66 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
+
+.button-container1L {
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    transform: translate(300px, 250px);
+  }
+
+  .button-container2L {
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    transform: translate(610px, 146px);
+  }
+
+  .button-container3L {
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    transform: translate(910px, 44px);
+  }
+
+  .button-container4L {
+    z-index: 9;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    transform: translate(1210px, -60px);
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    border: solid rgb(62, 61, 61);
+    border-radius: 5px;
+  }
+  .ativo1L {
+   background-color: transparent;
+   color: black;
+  }
+  .inativo1L {
+    background-color: transparent;
+    color: black;
+  }
+  #mensagemStatus1L {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 20px;
+    transform: translate(1000px, 200px);
+  }
+
+  #status {    
+    position: absolute;
+    transform: translate(1000px, 130px);
+  }
